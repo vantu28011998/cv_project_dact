@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+   font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    padding-top: 5%;
+    background: rgb(135,48,179);
+    background: linear-gradient(to right, rgba(135,48,179,1) 6%, rgba(29,203,184,1) 97%, rgba(26,208,184,0.9416141456582633) 100%);
+}
+.gradient{
+    background: rgb(135,48,179);
+    background: rgb(89,53,141);
+background: linear-gradient(to bottom, rgba(89,53,141,0.99) 0%, rgba(89,53,141,0.98) 35%, rgba(59,177,210,1) 100%);
+}
+.clear{
+    padding: 0.0;
+    margin: 0.0;
+    border: none;
+}
+.avatar-container{
+    position: relative;
+    width: 100%;
+    background: rgba(135,48,179,1);
+}
+.avatar-container .avatar-bottom{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(
+   to top, 
+   rgb(89,53,141,0.98) 0%,
+   rgba(89,53,141,0.95  ) 5%,
+   rgba(89,53,141,0.90) 10%,
+   rgba(89,53,141,0.85) 15%,
+   rgba(89,53,141,0.8) 20%,
+   rgba(89,53,141,0.6)40%,
+   rgba(89,53,141,0.5) 50%,
+   rgba(89,53,141,0)
+);
+    /* background: rgb(102, 34, 226); 
+    background: rgba(157, 51, 228, 0.5); */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; 
+    height: 30%;/* Full width */
+}
+.center {
+    text-align: center;
+}
+.left{
+    text-align: left;
+    align-items: left;
+}
+.posi{
+    color: aquamarine;
+}
+.title-center{
+    color: #f1f1f1;
+    text-align: center;
+}
+.title-left{
+    color: #f1f1f1;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top:0;
+}
+.line-left{
+    border-bottom: 2px solid #f1f1f1;
+}
+.title-right{
+    color: rgba(89,53,141,0.98);
+    text-align: left;
+    border-bottom: 2px solid rgba(89,53,141,0.98);
+    padding-bottom: 10px;
+    margin-bottom:15px;
+    margin-top: 10px;
+}
+.content{
+    text-align: center;
+    padding: 5%;
+    color: #f1f1f1;
+    size: 30px;
+}
+.left-content{
+    text-align: left;
+    color: #f1f1f1;
+    font-size: 20px;
+}
+.center-content{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.line-decor{
+    border: 0.5px solid white;
+    margin-top: 0;
+    border-radius: 0.25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.line-decor-right{
+    border: 0.5px solid rgba(89,53,141,0.98);
+    border-radius: 0.25px;
+}
+.myBar{
+    width: 10%;
+    height: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, rgba(89,53,141,1) 0%, rgba(89,53,136,1) 21%, rgba(66,156,152,1) 50%, rgba(58,90,194,1) 74%, rgba(89,53,141,1) 100%);
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;   
+    position: relative;
+    bottom: 0;
+    text-shadow: 0px 0px 0px rgba(108, 60, 175, 0.60),
+      1px 1px 0px rgba(86, 38, 153, 0.60),
+      2px 2px 0px rgba(68, 35, 114, 0.60);
+}
+.myProgress{
+    width:100%;
+    font-size: 15px;
+
+}   
+.title-progress{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 20px;
+}
+.makeColor{
+    color: yellowgreen;
+}
+.education-icon{
+    font-size: 30px;
+    position: relative;
+    top: 7;
+    color: rgb(72, 36, 122);;
+}
+.education-content{
+    font-size: 18px;
+    font-weight: bold;
+}
+.education-year{
+    font-size: 20px;
+    position: relative;
+    top: 7;
+}
+.circle {
+    background: #456BD9;
+    border: 0 solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 5em;
+    width: 5em;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For mobile phones: */
+    [class*="col-xs-12"] {
+      width: 100% !important;
+    }
+    
+    body{
+      padding-top: 0px !important;   
+    }
+}
+
+h1{
+    color: white;
+    text-shadow: 0px 0px 0px rgba(108, 60, 175, 0.60),
+      2px 2px 0px rgba(86, 38, 153, 0.60),
+      3px 3px 0px rgba(68, 35, 114, 0.60);
+}
